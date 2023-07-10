@@ -54,7 +54,7 @@ header{
     line-height: 30px;
     width: 650px;
     margin: 0 auto;
-   padding-bottom: 30px; 
+    padding-bottom: 30px; 
 }
 main{
     width: 920px;
@@ -80,7 +80,6 @@ main{
 .featured-section .featured-column img{
     width: 170px;
     height: 250px; 
-    background-color:red;
     padding: 60px 60px 0px 60px;
     margin: 10px;
     border-radius: 50% 50% 0% 0%;
@@ -88,4 +87,22 @@ main{
 .features h4{
     text-decoration: underline;
     text-align: center;  
+}
+/*Deal Section related style*/
+.deal-main{
+    background-color:rgba(229, 84, 115, 0.05);
+    margin: 40px 0;
+}
+.deal-sectinon{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px;
+    align-items:center; 
+}
+.deal-content {
+    width: 550px;
+    text-align: center;
+}
+.deal-sectinon .banner-image{
+    width: 220px;
 }
