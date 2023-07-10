@@ -1,6 +1,6 @@
 /*Body Related Style*/
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -45,6 +45,7 @@ header{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 10px; 
 }
 .section-describtion {
     color: rgba(39, 39, 39, 0.60);
@@ -105,4 +106,8 @@ main{
 }
 .deal-sectinon .banner-image{
     width: 220px;
+}
+.instagram img{
+    width: 215px;
+    margin: 8px;
 }
