@@ -109,5 +109,21 @@ main{
 }
 .instagram img{
     width: 215px;
-    margin: 8px;
+    margin-right: 10px;
+}
+
+
+/*New Section related style*/
+.new-section{
+    text-align: center;
+    background-color: #f7f3f4;
+    padding: 40px 0;
+    margin: 50px 0;
+}
+.new-section .new-content main{
+    display: flex;
+    justify-content: space-between;
+}
+.new-section .new-content main button{
+    margin-right: 10px;
 }
