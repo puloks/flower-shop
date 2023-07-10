@@ -54,6 +54,7 @@ header{
     line-height: 30px;
     width: 650px;
     margin: 0 auto;
+   padding-bottom: 30px; 
 }
 main{
     width: 920px;
@@ -67,9 +68,24 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.featured-section .features{
-    
+.featured-section .features .features-left{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.featured-section .features .features-middle{
+    background-color: rgba(5, 151, 160, 0.1);
+}
+.featured-section .features .features-right{
+    background-color: rgba(71, 125, 17, 0.15);
 }
 .featured-section .featured-column img{
-    width: 250px;
+    width: 170px;
+    height: 250px; 
+    background-color:red;
+    padding: 60px 60px 0px 60px;
+    margin: 10px;
+    border-radius: 50% 50% 0% 0%;
+}
+.features h4{
+    text-decoration: underline;
+    text-align: center;  
 }
