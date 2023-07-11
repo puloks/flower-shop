@@ -19,7 +19,6 @@ header{
 .banner .banner-content{
     padding-bottom: 50px;
 }
-
 .banner .banner-image{
     width: 320px;
 }
@@ -151,7 +150,7 @@ main{
     background-image:url(../images/Rectan.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 0 40px 0;
+    padding: 60px 0 60px 0;
 }
 .new-greading {
     font-size: 25px;
@@ -181,4 +180,29 @@ input[type="mail"] {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
+}
+/*Footer Section*/
+.footer-section {
+    background: #000;
+    padding: 50px 0 40px 0;
+    margin-top: 50px;
+}
+.footer-section .section-title{
+    color: #fff;
+}
+.footer-section .section-title span{
+    color: #E55473;
+}
+.footer-section .section-describtion{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.footer-section p{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
 }
